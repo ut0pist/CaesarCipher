@@ -24,6 +24,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -37,6 +39,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,8 +61,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602956797047</updated>
+      <workItem from="1605473952482" duration="650000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603008557712">
@@ -58,58 +77,74 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603008555707" />
-    <state width="445" height="466" key="DebuggerActiveHint" timestamp="1603009309903">
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1603309234245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="445" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1603009309903" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1602962225095">
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603309234245" />
+    <state width="521" height="466" key="DebuggerActiveHint" timestamp="1603551620015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602962225095" />
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom" timestamp="1603139351982">
+    <state width="521" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1603551620015" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1603565835617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603139351982" />
-    <state width="1877" height="268" key="GridCell.Tab.0.center" timestamp="1603139351982">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603565835617" />
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1603574081450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603139351982" />
-    <state width="1877" height="268" key="GridCell.Tab.0.left" timestamp="1603139351982">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603574081450" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1603574081450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603139351982" />
-    <state width="1877" height="268" key="GridCell.Tab.0.right" timestamp="1603139351982">
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603574081450" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1603574081449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603139351982" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603135862942">
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603574081449" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1603574081450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603135862942" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1603135862942">
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603574081450" />
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom" timestamp="1603574081445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603135862942" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1603135862942">
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603574081445" />
+    <state width="1877" height="306" key="GridCell.Tab.1.center" timestamp="1603574081444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603135862942" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1603135862942">
+    <state width="1877" height="306" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603574081444" />
+    <state width="1877" height="306" key="GridCell.Tab.1.left" timestamp="1603574081444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603135862942" />
+    <state width="1877" height="306" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603574081444" />
+    <state width="1877" height="306" key="GridCell.Tab.1.right" timestamp="1603574081444">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="306" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603574081444" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1603017133873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603017133873" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1603552138110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1603552138110" />
     <state x="505" y="255" width="909" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603132548171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="505" y="255" width="909" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1603132548171" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1603136021471">
+    <state x="551" y="140" key="new project wizard" timestamp="1603615333696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603136021471" />
+    <state x="551" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603615333696" />
+    <state x="803" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1603309221990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603309221990" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1603551956562">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603551956562" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -118,6 +153,16 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="12" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/freqTable.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/decipheredText.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

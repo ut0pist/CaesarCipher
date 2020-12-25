@@ -12,7 +12,7 @@ public class freqTable {
     }
 
     private void createFreqTable(String text) {
-        int counter;
+        int currentLetterCounter;
         int amountOfRussianLetters = 0;
         int alphabetIndex;
         Double value;
@@ -31,17 +31,17 @@ public class freqTable {
 
 
         for (alphabetIndex = 0; alphabetIndex < alphabet.length; alphabetIndex++) {
-            counter = 0;
+            currentLetterCounter = 0;
 
             for (int j = 0; j < text.length(); j++) {
                 charVar = text.charAt(j);
                 if (charVar >= 1040 && charVar <= 1103) {
                     if (alphabet[alphabetIndex].charAt(0) == charVar || alphabet[alphabetIndex].charAt(1) == charVar)
-                        counter++;
+                        currentLetterCounter++;
                 }
             }
 
-            value = (double) counter / amountOfRussianLetters;
+            value = (double) currentLetterCounter / amountOfRussianLetters;
             freqTable.put(alphabet[alphabetIndex], value);
         }
     }
@@ -52,7 +52,7 @@ public class freqTable {
             keyToDisplay = "";
             keyToDisplay += (char) ('А' + i);
             keyToDisplay += (char) ('а' + i);
-            System.out.print( keyToDisplay + " : ");
+            System.out.print(keyToDisplay + " : ");
             System.out.println(freqTable.get(keyToDisplay));
         }
     }
